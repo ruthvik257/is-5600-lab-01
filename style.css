@@ -14,7 +14,7 @@ body {
 }
 
 /* add styles here */
-/**  Header **/
+
 header{
    background-image: url('./images/florence.jpg');
    background-size: cover;
@@ -22,7 +22,7 @@ header{
    width: 100%;
 }
 
-/* Navigation */
+
 nav {
    background-image: url('./images/logo.svg');
    background-size: 60px;
@@ -42,7 +42,7 @@ nav {
  }
 
  nav a {
-   color: #51279b;
+   color: #1e1c21;
    text-decoration: none;
    padding: 10px;
    font-weight: 600;
@@ -57,7 +57,7 @@ nav {
    text-decoration: underline;
  }
 
- /** hero text **/
+
  header div {
    margin: 100px 0 0 80px;
    color: white;
@@ -73,7 +73,7 @@ nav {
  }
 
  header div a {
-   background-color: #51279b;
+   background-color: #287195;
    color: white;
    padding: 10px 20px;
    text-decoration: none;
@@ -89,8 +89,7 @@ nav {
  }
 
  .card {
-   /* float: left;
-   display: inline-block; */
+   
    flex-grow: 1;
    width: calc(33% - 10px);
    margin: 10px 5px;
